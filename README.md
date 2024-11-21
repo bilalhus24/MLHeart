@@ -5,7 +5,7 @@ This project explores various **classification techniques** to predict the likel
 ---
 
 ## Dataset
-- **Source**: Kaggle ([Heart Disease Dataset](https://www.kaggle.com/))
+- **Source**: Kaggle ([Heart Disease Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction))
 - The dataset contains features related to patients' health and clinical measurements to predict heart disease risk.
 
 ---
@@ -36,6 +36,10 @@ The following classification algorithms were implemented and tested:
 
 4. **Comparison**:
    - Compared results across all models to identify the best-performing algorithm.
+   - Performed 250 trials on each classification technique(50 for each training:testing split, from 50/50 to 90:10, increasing by 10 percent every time)
+   - Got the averages of each, including the standard deviation
+   - Found that among all techniques and splits, Random Forest performed the best, while Decision Tree performed the worst.
+   - All data was collected and analyzed through "classification_results.csv", attached in the project files.
 
 ---
 
